@@ -1,0 +1,30 @@
+{
+  "name": "another-promisify",
+  "version": "1.0.0",
+  "description": "A tiny promisify.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "pub": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky0014/tiny-promisify.git"
+  },
+  "keywords": [
+    "tiny",
+    "promise",
+    "promisify"
+  ],
+  "author": "sky0014 <sky-wang@qq.com>",
+  "bugs": {
+    "url": "https://github.com/sky0014/tiny-promisify/issues"
+  },
+  "homepage": "https://github.com/sky0014/tiny-promisify/#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0"
+  }
+}
